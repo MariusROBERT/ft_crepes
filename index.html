@@ -14,18 +14,17 @@
             <p>Git you up</p>
         </div>
         <div class="music">
-            <p class="play">▶</p>
+            <p class="play" onclick="change_music('Khapta.mp3')">▶</p>
             <p>Khapta</p>
         </div>
         <div class="music">
-            <p class="play">▶</p>
+            <p class="play" onclick="change_music('Elle_code_bien_sa_mere.mp3')">▶</p>
             <p>Elle code bien sa mère</p>
         </div>
     </div>
     <div id="player">
-        <audio controls>
-            <source src="music/Git_you_up.mp3" type="audio/mpeg">
-            Your browser does not support the audio element.
+        <audio controls src="music/Git_you_up.mp3">
+            <p>Your browser does not support the audio element. You can still download it <a href="music/Git_you_up.mp3">here</a></p>
         </audio>
     </div>
 </div>
