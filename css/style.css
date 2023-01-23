@@ -1,10 +1,37 @@
 
+body {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #e8e6e3;
+}
+
 #player {
     /* Put this in the center bottom of the page */
     position: absolute;
-    bottom: 50px;
+    bottom: 100px;
     left: 50%;
     transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#player h3 {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 5px;
+    text-shadow: 0 0 0.2em rgb(150 25 118), 0 0 0.4em rgb(150 25 118), 0 0 0.6em rgb(150 25 118), 0 0 0.6em rgb(150 25 118);
+}
+
+#player > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+audio {
+    width: 100%;
+    margin: 10px;
 }
 
 #global {
@@ -35,16 +62,10 @@
     margin: 20px;
     padding: 10px 30px;
     border-radius: 20px;
-    background-color: rgba(168, 168, 168, 0.7);
-    border: solid 1px grey;
+    background-color: rgba(58, 63, 66, 0.7);
+    border: solid 1px rgb(111, 103, 91);
     display: flex;
     flex-direction: row;
-}
-
-.music > p {
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    opacity: 100%;
 }
 
 .play {
