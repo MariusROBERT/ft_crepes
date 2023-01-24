@@ -55,14 +55,13 @@ audio {
     width: 100%;
 }
 
-.music {
+#album > p {
     margin: 20px;
-    padding: 10px 30px;
+    padding: 30px 30px;
     border-radius: 20px;
     background-color: rgba(58, 63, 66, 0.7);
     border: solid 1px rgb(111, 103, 91);
-    display: flex;
-    flex-direction: row;
+    cursor: pointer;
 }
 
 .play {
